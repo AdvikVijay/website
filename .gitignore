@@ -1,18 +1,40 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Node.js dependencies (if using Node.js)
+node_modules/
 
-# Other files and folders
-.settings/
+# Build output (if applicable)
+dist/
+build/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Logs
+logs
+*.log
+npm-debug.log*
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Environment variables (if applicable)
+.env
+.env.local
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Miscellaneous
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Ignore any other files you don't want to track
+*.zip
+*.tar.gz
+*.rar
